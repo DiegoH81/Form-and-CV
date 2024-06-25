@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Form.MainPage"
+             BackgroundColor="#1A365B">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackLayout Margin="0,12,0,12">
+            <Label Text="Formulario CV" 
+               FontSize="28" 
+               HorizontalOptions="Center"
+               VerticalOptions="Start"
+               FontFamily="Arial"
+               FontAttributes="Bold"
+               TextColor="White"
+               />
+        </StackLayout>
+
+        <Frame Grid.Row="1"
+           Padding="15"
+           Margin="15"
+           BackgroundColor="White"
+           CornerRadius="15">
+            <StackLayout
+         BackgroundColor="White"
+         Margin="15, -15, 15, 15">
+                <BoxView HeightRequest="20" />
+                <Label Text="Nombre" />
+                <Entry x:Name="NombreEntry"
+       Placeholder="Introduce tu nombre" />
+
+                <Label Text="Apellido" />
+                <Entry x:Name="ApellidoEntry"
+       Placeholder="Introduce tu apellido" />
+
+                <Label Text="Dirección" />
+                <Entry x:Name="DireccionEntry"
+       Placeholder="Introduce tu dirección" />
+
+                <Label Text="Correo Electrónico" />
+                <Entry x:Name="CorreoEntry"
+       Placeholder="Introduce tu correo electrónico"
+       Keyboard="Email" />
+
+                <Label Text="Teléfono" />
+                <Entry x:Name="TelefonoEntry"
+       Placeholder="Introduce tu número de teléfono"
+       Keyboard="Telephone" />
+
+                <Label Text="Fecha de Nacimiento" />
+                <DatePicker x:Name="FechaNacimientoPicker"
+            MinimumDate="01-01-1900" />
+
+                <Label Text="Género" />
+                <Picker x:Name="GeneroPicker">
+                    <Picker.Items>
+                        <x:String>Masculino</x:String>
+                        <x:String>Femenino</x:String>
+                        <x:String>Otro</x:String>
+                    </Picker.Items>
+                </Picker>
+
+                <Label Text="Idioma" />
+                <Picker x:Name="IdiomaPicker">
+                    <Picker.Items>
+                        <x:String>Ingles</x:String>
+                        <x:String>Espanol</x:String>
+                        <x:String>Otro</x:String>
+                    </Picker.Items>
+                </Picker>
+                <Button Text="Enviar"
+        Clicked="OnEnviarClicked" />
+
+            </StackLayout>
+
+
+        </Frame>
+    </Grid>
+</ContentPage>

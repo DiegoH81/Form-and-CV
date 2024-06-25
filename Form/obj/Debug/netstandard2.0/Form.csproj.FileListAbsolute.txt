@@ -1,0 +1,15 @@
+C:\Users\diego\source\repos\Form\Form\Form\bin\Debug\netstandard2.0\Form.deps.json
+C:\Users\diego\source\repos\Form\Form\Form\bin\Debug\netstandard2.0\Form.dll
+C:\Users\diego\source\repos\Form\Form\Form\bin\Debug\netstandard2.0\ref\Form.dll
+C:\Users\diego\source\repos\Form\Form\Form\bin\Debug\netstandard2.0\Form.pdb
+C:\Users\diego\source\repos\Form\Form\Form\obj\Debug\netstandard2.0\Form.csproj.AssemblyReference.cache
+C:\Users\diego\source\repos\Form\Form\Form\obj\Debug\netstandard2.0\Form.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\source\repos\Form\Form\Form\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\diego\source\repos\Form\Form\Form\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\diego\source\repos\Form\Form\Form\obj\Debug\netstandard2.0\Form.AssemblyInfoInputs.cache
+C:\Users\diego\source\repos\Form\Form\Form\obj\Debug\netstandard2.0\Form.AssemblyInfo.cs
+C:\Users\diego\source\repos\Form\Form\Form\obj\Debug\netstandard2.0\Form.csproj.CoreCompileInputs.cache
+C:\Users\diego\source\repos\Form\Form\Form\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\diego\source\repos\Form\Form\Form\obj\Debug\netstandard2.0\Form.dll
+C:\Users\diego\source\repos\Form\Form\Form\obj\Debug\netstandard2.0\refint\Form.dll
+C:\Users\diego\source\repos\Form\Form\Form\obj\Debug\netstandard2.0\Form.pdb
